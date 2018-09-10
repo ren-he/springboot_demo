@@ -13,7 +13,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 @WebAppConfiguration
-public class TestJdbcTemplate {
+public class JdbcTemplateTest {
 
 	@Autowired
 	private UserService userService;
